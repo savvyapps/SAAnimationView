@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		98F716A0264160E30009DD2C /* SAAnimationView.h in Headers */ = {isa = PBXBuildFile; fileRef = 98F7169E264160E30009DD2C /* SAAnimationView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		98F7170C264165010009DD2C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F7170B264165010009DD2C /* AppDelegate.m */; };
 		98F71715264165010009DD2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98F71713264165010009DD2C /* Main.storyboard */; };
 		98F71717264165020009DD2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98F71716264165020009DD2C /* Assets.xcassets */; };
@@ -23,8 +22,8 @@
 		98F71762264166310009DD2C /* SATransformAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F7175A264166310009DD2C /* SATransformAnimationView.m */; };
 		98F71778264168B80009DD2C /* SAAnimationView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98F7169B264160E30009DD2C /* SAAnimationView.framework */; };
 		98F71779264168B80009DD2C /* SAAnimationView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 98F7169B264160E30009DD2C /* SAAnimationView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		98F7178626416B0E0009DD2C /* SAAnimationView.h in Headers */ = {isa = PBXBuildFile; fileRef = 98F7178426416B0E0009DD2C /* SAAnimationView.h */; };
-		98F7178726416B0E0009DD2C /* SAAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F7178526416B0E0009DD2C /* SAAnimationView.m */; };
+		98F717A526416E7F0009DD2C /* SAAnimationView.h in Headers */ = {isa = PBXBuildFile; fileRef = 98F717A326416E7F0009DD2C /* SAAnimationView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98F717A626416E7F0009DD2C /* SAAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F717A426416E7F0009DD2C /* SAAnimationView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,7 +52,6 @@
 
 /* Begin PBXFileReference section */
 		98F7169B264160E30009DD2C /* SAAnimationView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SAAnimationView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		98F7169E264160E30009DD2C /* SAAnimationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SAAnimationView.h; sourceTree = "<group>"; };
 		98F7169F264160E30009DD2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		98F71708264165010009DD2C /* SAAnimationView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SAAnimationView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98F7170A264165010009DD2C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -79,8 +77,8 @@
 		98F71759264166310009DD2C /* CIMenuCloseAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIMenuCloseAnimationView.h; sourceTree = "<group>"; };
 		98F7175A264166310009DD2C /* SATransformAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SATransformAnimationView.m; sourceTree = "<group>"; };
 		98F7175B264166310009DD2C /* SAPlayPauseAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAPlayPauseAnimationView.h; sourceTree = "<group>"; };
-		98F7178426416B0E0009DD2C /* SAAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAAnimationView.h; sourceTree = "<group>"; };
-		98F7178526416B0E0009DD2C /* SAAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAAnimationView.m; sourceTree = "<group>"; };
+		98F717A326416E7F0009DD2C /* SAAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAAnimationView.h; sourceTree = "<group>"; };
+		98F717A426416E7F0009DD2C /* SAAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAAnimationView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +103,6 @@
 		98F71691264160E30009DD2C = {
 			isa = PBXGroup;
 			children = (
-				98F7178326416B0E0009DD2C /* Sources */,
 				98F7169D264160E30009DD2C /* SAAnimationView */,
 				98F71709264165010009DD2C /* Example */,
 				98F7169C264160E30009DD2C /* Products */,
@@ -125,7 +122,8 @@
 		98F7169D264160E30009DD2C /* SAAnimationView */ = {
 			isa = PBXGroup;
 			children = (
-				98F7169E264160E30009DD2C /* SAAnimationView.h */,
+				98F717A326416E7F0009DD2C /* SAAnimationView.h */,
+				98F717A426416E7F0009DD2C /* SAAnimationView.m */,
 				98F7169F264160E30009DD2C /* Info.plist */,
 			);
 			path = SAAnimationView;
@@ -192,15 +190,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		98F7178326416B0E0009DD2C /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				98F7178426416B0E0009DD2C /* SAAnimationView.h */,
-				98F7178526416B0E0009DD2C /* SAAnimationView.m */,
-			);
-			path = Sources;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -208,8 +197,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98F7178626416B0E0009DD2C /* SAAnimationView.h in Headers */,
-				98F716A0264160E30009DD2C /* SAAnimationView.h in Headers */,
+				98F717A526416E7F0009DD2C /* SAAnimationView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,7 +301,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98F7178726416B0E0009DD2C /* SAAnimationView.m in Sources */,
+				98F717A626416E7F0009DD2C /* SAAnimationView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

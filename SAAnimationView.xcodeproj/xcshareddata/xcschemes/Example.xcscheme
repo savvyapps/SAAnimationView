@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "98F71707264165010009DD2C"
-               BuildableName = "Example.app"
+               BuildableName = "SAAnimationView.app"
                BlueprintName = "Example"
                ReferencedContainer = "container:SAAnimationView.xcodeproj">
             </BuildableReference>
@@ -45,7 +45,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "98F71707264165010009DD2C"
-            BuildableName = "Example.app"
+            BuildableName = "SAAnimationView.app"
             BlueprintName = "Example"
             ReferencedContainer = "container:SAAnimationView.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "98F71707264165010009DD2C"
-            BuildableName = "Example.app"
+            BuildableName = "SAAnimationView.app"
             BlueprintName = "Example"
             ReferencedContainer = "container:SAAnimationView.xcodeproj">
          </BuildableReference>
