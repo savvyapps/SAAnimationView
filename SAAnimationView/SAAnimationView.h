@@ -143,7 +143,7 @@ typedef void (^SAAnimationViewBlock)(SAAnimationView *);
  
  @param progress The current progress to normalize
  @param sliceOffset Where the slice will start. Has to be in the @c[0,1] range
- @param sliceDuration
+ @param sliceDuration Duration of slice
  */
 CGFloat normalizeSlice(CGFloat progress, CGFloat sliceOffset, CGFloat sliceDuration);
 
